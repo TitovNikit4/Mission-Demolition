@@ -665,7 +665,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2ac371c41589de243b8edf6ea7d12b75, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.15
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1545,10 +1545,12 @@ MonoBehaviour:
   uitButton: {fileID: 669276114}
   castlePos: {x: 50, y: -9.5, z: 0}
   castles:
-  - {fileID: 1552989857657068, guid: c1918078768cc054bab993f839457d13, type: 2}
+  - {fileID: 1552989857657068, guid: dbd116c288172b548b4b92e1dbc638f1, type: 2}
   - {fileID: 1552989857657068, guid: 5dcbd07f8c3a5c946a807637865273c3, type: 2}
   - {fileID: 1552989857657068, guid: cd139985d87d75743addfc2910e442f5, type: 2}
-  - {fileID: 1552989857657068, guid: dbd116c288172b548b4b92e1dbc638f1, type: 2}
+  - {fileID: 1552989857657068, guid: c1918078768cc054bab993f839457d13, type: 2}
+  - {fileID: 1552989857657068, guid: df85ffd7cc30e5d41a90bbba544a8ea6, type: 2}
+  - {fileID: 1414353956470112, guid: 4832b91f45c267c409d01271998da868, type: 2}
   level: 0
   levelMax: 0
   shotsTaken: 0
@@ -1564,9 +1566,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 78c1bd6b51b2da34bb748257b6361ce5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 914720e6a2e60e74685d6405f3db1ddf, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.05
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
