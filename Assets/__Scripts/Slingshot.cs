@@ -68,6 +68,8 @@ public class Slingshot : MonoBehaviour {
 		Vector3 projPos = launchPos + mouseDelta;
 		projectile.transform.position = projPos;
 		if (Input.GetMouseButtonUp(0)) {
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Play();
 			aimingMode = false;
 			projectileRigidbody.isKinematic = false;
 			projectileRigidbody.velocity = -mouseDelta * velocityMult;
